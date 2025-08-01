@@ -40,7 +40,7 @@ export const AboutSection = () => {
     const maxExperienceLevel = Math.max(...skills.map(skill => skill.experience));
 
     return (
-        <div className="space-y-6 w-full">
+        <div className="space-y-7 w-full">
 
             <h2 className="text-4xl font-bold font-text">
                 about me
@@ -59,7 +59,7 @@ export const AboutSection = () => {
             </p>
 
             <div className='w-full'>
-                <h2 className="text-2xl font-bold font-text mb-4">
+                <h2 className="text-2xl font-bold font-text mb-6">
                     skills
                 </h2>
 
