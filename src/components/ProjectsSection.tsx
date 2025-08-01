@@ -17,7 +17,7 @@ export const ProjectsSection = () => {
             projectLink: "https://github.com/markom9822/markom9822.github.io",
             startDate: new Date(2025, 6, 28),
             image: portfolioWebsiteImage,
-            techUsed: [reactIcon, viteIcon, typescriptIcon, tailwindCSSIcon, gitIcon],
+            techUsed: [reactIcon, viteIcon, typescriptIcon, tailwindCSSIcon, gitIcon, figmaIcon],
         },
         {
             title: "MarkNote App",

@@ -58,7 +58,7 @@ export const AboutSection = () => {
                 Here you will find out more about me, my skills, my experience and some of my projects I've been working on in my spare time.
             </p>
 
-            <div>
+            <div className='w-full'>
                 <h2 className="text-2xl font-bold font-text mb-4">
                     skills
                 </h2>
