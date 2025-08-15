@@ -8,13 +8,55 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
-  <div>
+<body style="margin: 0; min-height: 100vh;">
 
-    <div>
-      <button id="aboutBtn">about me</button>
-      <button id="whyBtn">why change</button>
-      <button id="workBtn">my work</button>
+  <div class="container" style="
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;">
+
+    <div style="display: flex; align-items: center; justify-content: center;">
+
+      <button id="aboutBtn" style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16">
+          </path>
+          <path
+            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0">
+          </path>
+        </svg>
+        about me
+      </button>
+
+      <button id="whyBtn" style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;">
+        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 md:w-4 md:h-4 lg:h-4 lg:w-4" height="1em" width="1em"
+         xmlns="http://www.w3.org/2000/svg"><path d="M12 12h.01"></path><path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"></path><path d="M22 13a18.15 18.15 0 0 1-20 0">
+        </path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg>
+        why change
+      </button>
+
+      <button id="workBtn" style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-4 h-4 md:w-4 md:h-4 lg:h-4 lg:w-4" height="1em" width="1em"
+         xmlns="http://www.w3.org/2000/svg">
+         <path fill="none" stroke-width="2" d="M9,15 L9,23 L1,23 L1,15 L9,15 Z M23,15 L23,23 L15,23 L15,15 L23,15 Z M9,1 L9,9 L1,9 L1,1 L9,1 Z M23,1 L23,9 L15,9 L15,1 L23,1 Z">
+        </path></svg>
+       my work
+      </button>
     </div>
 
     <div id="folder">
@@ -40,8 +82,7 @@
 
             </div>
 
-            <div id="content"
-              style="display: flex; flex-direction: row; padding: 5px; gap: 20px;">
+            <div id="content" style="display: flex; flex-direction: row; padding: 5px; gap: 20px;">
 
             </div>
 
@@ -57,7 +98,8 @@
                 <p style="font-size: x-small; text-align: left; width: 33%;">mark o. m.</p>
 
 
-                <div style="width: 33%; margin-top: 3px; display: flex; gap: 8px; align-items: center; justify-content: center;">
+                <div
+                  style="width: 33%; margin-top: 3px; display: flex; gap: 8px; align-items: center; justify-content: center;">
                   <a href="https://github.com/markom9822" target="_blank" style="display: flex;">
                     <svg stroke="black" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke-linecap="round"
                       stroke-linejoin="round" height="16px" width="16px" xmlns="http://www.w3.org/2000/svg">
@@ -69,9 +111,24 @@
                     </svg>
                   </a>
                   <a href="https://www.linkedin.com/in/marko-meara/" target="_blank" style="display: flex;">
-                    <svg stroke="black" fill="black" stroke-width="0" viewBox="0 0 24 24" height="18px" width="18px" xmlns="http://www.w3.org/2000/svg"><g id="LinkedIn"><g><path d="M18.44,3.06H5.56a2.507,2.507,0,0,0-2.5,2.5V18.44a2.507,2.507,0,0,0,2.5,2.5H18.44a2.5,2.5,0,0,0,2.5-2.5V5.56A2.5,2.5,0,0,0,18.44,3.06Zm1.5,15.38a1.511,1.511,0,0,1-1.5,1.5H5.56a1.511,1.511,0,0,1-1.5-1.5V5.56a1.511,1.511,0,0,1,1.5-1.5H18.44a1.511,1.511,0,0,1,1.5,1.5Z"></path><g><path d="M6.376,10.748a1,1,0,1,1,2,0v6.5h0a1,1,0,0,1-2,0Z"></path><circle cx="7.376" cy="6.744" r="1"></circle><path d="M17.62,13.37v3.88a1,1,0,1,1-2,0V13.37a1.615,1.615,0,1,0-3.23,0v3.88a1,1,0,0,1-2,0v-6.5a1.016,1.016,0,0,1,1-1,.94.94,0,0,1,.84.47,3.609,3.609,0,0,1,5.39,3.15Z">
+                    <svg stroke="black" fill="black" stroke-width="0" viewBox="0 0 24 24" height="18px" width="18px"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <g id="LinkedIn">
+                        <g>
+                          <path
+                            d="M18.44,3.06H5.56a2.507,2.507,0,0,0-2.5,2.5V18.44a2.507,2.507,0,0,0,2.5,2.5H18.44a2.5,2.5,0,0,0,2.5-2.5V5.56A2.5,2.5,0,0,0,18.44,3.06Zm1.5,15.38a1.511,1.511,0,0,1-1.5,1.5H5.56a1.511,1.511,0,0,1-1.5-1.5V5.56a1.511,1.511,0,0,1,1.5-1.5H18.44a1.511,1.511,0,0,1,1.5,1.5Z">
+                          </path>
+                          <g>
+                            <path d="M6.376,10.748a1,1,0,1,1,2,0v6.5h0a1,1,0,0,1-2,0Z"></path>
+                            <circle cx="7.376" cy="6.744" r="1"></circle>
+                            <path
+                              d="M17.62,13.37v3.88a1,1,0,1,1-2,0V13.37a1.615,1.615,0,1,0-3.23,0v3.88a1,1,0,0,1-2,0v-6.5a1.016,1.016,0,0,1,1-1,.94.94,0,0,1,.84.47,3.609,3.609,0,0,1,5.39,3.15Z">
 
-                    </path></g></g></g></svg>
+                            </path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
                   </a>
                 </div>
                 <p style="font-size: x-small; text-align: right; width: 33%;">created: Aug, 2025</p>
@@ -81,10 +138,12 @@
         </div>
       </div>
     </div>
-  </div>
+    <div>
 
-  </div>
-  <script type="module" src="script.js"></script>
+    </div>
+    <script type="module" src="script.js"></script>
+    <div>
+
 </body>
 
 </html>
