@@ -1,3 +1,7 @@
+import { about } from './sections/about.js';
+import { why } from './sections/why.js';
+import { work } from './sections/work.js';
+
 
 // References to buttons and content container
 const aboutBtn = document.getElementById("aboutBtn");
@@ -5,38 +9,10 @@ const whyBtn = document.getElementById("whyBtn");
 const workBtn = document.getElementById("workBtn");
 const content = document.getElementById("content");
 
-// Data for each section
-const sections = {
-    about: `
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="flex: 2; padding-right: 24px;">
-        <h1>About me</h1>
-        <p>
-            I am a Software Engineer from Dublin, Ireland based in London.
-            I have 3 years of experience in a med-tech startup building VR simulations for medical professionals.
-            My background is in Biomedical Engineering with a masters from Imperial College London.
-            I have a strong passion for learning new things and building.
-        </p>
-        </div>
-        <div style="flex: 1; display: flex; justify-content: center;">
-            <img src="./images/profile_photo_small.png"
-                alt="Profile photo"
-                style="width:180px; border-radius:4px;">
-        </div>
-    </div>
-
-    `,
-    why: `
-        <h1>Why career change?</h1>
-        <p>I enjoy solving problems, working with web technologies, and building scalable systems. 
-        I want to expand into full-stack development to diversify my career and work on projects 
-        that can reach a wider audience.</p>
-    `,
-    work: `
-        <h1>What I've built</h1>
-        <p>Projects that I have built in my spare time or in work, 
-        including VR training modules, interactive web apps, and mobile prototypes.</p>
-    `
+export const sections = {
+    about,
+    why,
+    work
 };
 
 // Listeners for changing the content
