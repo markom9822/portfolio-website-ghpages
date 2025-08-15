@@ -18,9 +18,17 @@ export const work = `
                 <p style="margin: 0; font-size: 0.80rem; width: 30%; text-align: center;";">Started: Jul 28, 2025</p>
             </div>
 
-            <div style="width: 100%; display: flex; justify-content: start; margin-bottom: 16px; margin-top: 16px;">
-                <img src="./images/portfolio_website_cover.png" alt="Portfolio Screenshot" 
-                style="max-width: 100%; max-height: 180px; object-fit: cover; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,0.3);" />
+            <div style="width: fit-content; position: relative; margin: 10px;">
+                <img src="./images/portfolio_website_cover.png" alt="Portfolio Screenshot"
+                    style="display: block; max-width: 100%; max-height: 180px; object-fit: cover; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,0.3);" />
+
+                <img src="./images/sela-tape.png"
+                    alt="Overlay"
+                    style="position: absolute; top: -20px; right: -30px; width: 80px; height: 60px; pointer-events: none;">
+
+                <img src="./images/sela-tape.png"
+                    alt="Overlay"
+                    style="position: absolute; top: -20px; left: -30px; width: 80px; height: 60px; pointer-events: none; transform: rotate(90deg);">
             </div>
 
             <p style="font-size: 1rem; margin-bottom: 10px;">
@@ -58,9 +66,17 @@ export const work = `
                 <p style="margin: 0; font-size: 0.80rem; width: 30%; text-align: center;";">Started: Jul 12, 2024</p>
             </div>
 
-            <div style="width: 100%; display: flex; justify-content: start; margin-bottom: 16px; margin-top: 16px;">
-                <img src="./images/Rugby_Radar_Poster.jpg" alt="Portfolio Screenshot" 
-                style="max-width: 100%; max-height: 180px; object-fit: cover; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,0.3);" />
+            <div style="width: fit-content; position: relative; margin: 10px;">
+                <img src="./images/Rugby_Radar_Poster.jpg" alt="Portfolio Screenshot"
+                    style="display: block; max-width: 100%; max-height: 180px; object-fit: cover; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,0.3);" />
+
+                <img src="./images/sela-tape.png"
+                    alt="Overlay"
+                    style="position: absolute; top: -20px; right: -30px; width: 80px; height: 60px; pointer-events: none;">
+
+                <img src="./images/sela-tape.png"
+                    alt="Overlay"
+                    style="position: absolute; top: -20px; left: -30px; width: 80px; height: 60px; pointer-events: none; transform: rotate(90deg);">
             </div>
 
             <p style="font-size: 1rem;">
@@ -95,9 +111,17 @@ export const work = `
                 <p style="margin: 0; font-size: 0.80rem; width: 30%; text-align: center;";">Started: Mar 29, 2024</p>
             </div>
 
-            <div style="width: 100%; display: flex; justify-content: start; margin-bottom: 16px; margin-top: 16px;">
-                <img src="./images/MarkNote_app_cover.png" alt="Portfolio Screenshot" 
-                style="max-width: 100%; max-height: 180px; object-fit: cover; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,0.3);" />
+            <div style="width: fit-content; position: relative; margin: 10px;">
+                <img src="./images/MarkNote_app_cover.png" alt="Portfolio Screenshot"
+                    style="display: block; max-width: 100%; max-height: 180px; object-fit: cover; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,0.3);" />
+
+                <img src="./images/sela-tape.png"
+                    alt="Overlay"
+                    style="position: absolute; top: -20px; right: -30px; width: 80px; height: 60px; pointer-events: none;">
+
+                <img src="./images/sela-tape.png"
+                    alt="Overlay"
+                    style="position: absolute; top: -20px; left: -30px; width: 80px; height: 60px; pointer-events: none; transform: rotate(90deg);">
             </div>
 
             <p style="font-size: 1rem;">

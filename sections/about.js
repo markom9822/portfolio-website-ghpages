@@ -14,10 +14,32 @@ export const about =  `
                 </p>
             </div>
 
-            <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
+            <div style="flex: 1; display: flex; justify-content: center; align-items: center; position: relative;">
                 <img src="./images/profile_photo_small.png"
                     alt="Profile"
                     style="max-width: 100%; height: auto; border-radius: 6px;">
+
+                <img src="./images/pin.png"
+                    alt="Overlay"
+                    style="
+                    position: absolute;                    
+                    top: 0px;         
+                    left: 0px;        
+                    width: 40px;       
+                    height: 30px;
+                    pointer-events: none;
+                ">
+
+                <img src="./images/pin.png"
+                    alt="Overlay"
+                    style="
+                    position: absolute;                    
+                    top: 0px;         
+                    right: 0px;        
+                    width: 40px;       
+                    height: 30px;
+                    pointer-events: none;
+                ">
             </div>
         </div>
 
