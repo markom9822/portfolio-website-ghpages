@@ -14,7 +14,7 @@ export const work = `
             
             <div style="display: flex; flex-direction: row; align-items: center; border-bottom: 1px dashed black; width: 100%">
                 <p style="margin: 0; font-size: 0.80rem; width: 5%; text-align: center;">1</p>
-                <h3 style="margin: 0; width: 65%; text-align: left; padding: 5px">Full stack portfolio website</h3>
+                <h2 style="margin: 0; width: 65%; text-align: left; padding: 5px">Full stack portfolio website</h3>
                 <p style="margin: 0; font-size: 0.80rem; width: 30%; text-align: center;";">Started: Jul 28, 2025</p>
             </div>
 
@@ -33,7 +33,7 @@ export const work = `
             Project is unit tested with tests automatically ran when making pull requests using GitHub actions.
             </p>
 
-            <p style="margin-bottom: 10px; font-size: 0.80rem; background-color: #c6f5f5; border-radius: 5px; padding: 5px;">
+            <p style="margin-bottom: 10px; font-size: 0.80rem; background-color: #c6f5f5; border-radius: 5px; padding: 8px; font-family: JetBrains-Mono, Arial, monospace;">
                React, Vite, Typescript, Tailwind CSS, Firebase, Motion, Figma
             </p>
 
@@ -46,7 +46,7 @@ export const work = `
                     <path d="M9 18c-4.51 2-5-2-7-2">
                     </path>
                 </svg>
-                <p style="margin: 0; font-size: 1rem; text-align: center; color: blue;">Github Link</p>
+                <p style="margin: 0; margin-left: 2px; font-size: 1rem; text-align: center; color: blue; font-family: JetBrains-Mono, Arial, monospace">Github Link</p>
             </a>
 
         </div>
@@ -54,7 +54,7 @@ export const work = `
         <div style="margin-bottom: 20px">
             <div style="display: flex; flex-direction: row; align-items: center; border-bottom: 1px dashed black; width: 100%">
                 <p style="margin: 0; font-size: 0.80rem; width: 5%; text-align: center;">2</p>
-                <h3 style="margin: 0; width: 65%; text-align: left; padding: 5px">Rugby Radar app</h3>
+                <h2 style="margin: 0; width: 65%; text-align: left; padding: 5px">Rugby Radar app</h3>
                 <p style="margin: 0; font-size: 0.80rem; width: 30%; text-align: center;";">Started: Jul 12, 2024</p>
             </div>
 
@@ -70,7 +70,7 @@ export const work = `
             Supplies information on fixtures, stats, player info, standings and more from 10+ rugby leagues around the world.
             </p>
 
-            <p style="margin-bottom: 10px; font-size: 0.80rem; background-color: #c6f5f5; border-radius: 5px; padding: 5px;">
+            <p style="margin-bottom: 10px; font-size: 0.80rem; background-color: #c6f5f5; border-radius: 5px; padding: 5px; font-family: JetBrains-Mono, Arial, monospace">
                React Native, Typescript, Expo, Figma
             </p>
 
@@ -83,7 +83,7 @@ export const work = `
                     <path d="M9 18c-4.51 2-5-2-7-2">
                     </path>
                 </svg>
-                <p style="margin: 0; font-size: 1rem; text-align: center; color: blue;">Github Link</p>
+                <p style="margin: 0; margin-left: 2px; font-size: 1rem; text-align: center; color: blue; font-family: JetBrains-Mono, Arial, monospace">Github Link</p>
             </a>
 
         </div>
@@ -91,7 +91,7 @@ export const work = `
         <div style="margin-bottom: 20px">
             <div style="display: flex; flex-direction: row; align-items: center; border-bottom: 1px dashed black; width: 100%">
                 <p style="margin: 0; font-size: 0.80rem; width: 5%; text-align: center;">3</p>
-                <h3 style="margin: 0; width: 65%; text-align: left; padding: 5px">MarkNote app</h3>
+                <h2 style="margin: 0; width: 65%; text-align: left; padding: 5px">MarkNote app</h3>
                 <p style="margin: 0; font-size: 0.80rem; width: 30%; text-align: center;";">Started: Mar 29, 2024</p>
             </div>
 
@@ -107,7 +107,7 @@ export const work = `
             Features a code editor style text editor with a note preview which updates in real-time. Also includes an in depth array of settings allowing the user to customise themes, the editor and the markdown preview.
             </p>
 
-            <p style="margin-bottom: 10px; font-size: 0.80rem; background-color: #c6f5f5; border-radius: 5px; padding: 5px;">
+            <p style="margin-bottom: 10px; font-size: 0.80rem; background-color: #c6f5f5; border-radius: 5px; padding: 5px; font-family: JetBrains-Mono, Arial, monospace">
                React, Electron, Typescript, Tailwind CSS, Markdown, Jotai, Codemirror
             </p>
 
@@ -120,7 +120,7 @@ export const work = `
                     <path d="M9 18c-4.51 2-5-2-7-2">
                     </path>
                 </svg>
-                <p style="margin: 0; font-size: 1rem; text-align: center; color: blue;">Github Link</p>
+                <p style="margin: 0; margin-left: 2px; font-size: 1rem; text-align: center; color: blue; font-family: JetBrains-Mono, Arial, monospace">Github Link</p>
             </a>
 
         </div>
