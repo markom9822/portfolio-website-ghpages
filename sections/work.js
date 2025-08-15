@@ -4,8 +4,8 @@ export const work = `
         What I've built
     </h1>
     <p>
-        Projects that I have built in my spare time or in work, 
-        including VR training modules, interactive web apps, and mobile prototypes.
+        Projects that I have built in my spare time outside of work, 
+        including a full-stack website, sports mobile app and a markdown note-taking desktop app.
     </p>
 
     <div style="margin-top: 20px">
@@ -14,7 +14,7 @@ export const work = `
             
             <div style="display: flex; flex-direction: row; align-items: center; border-bottom: 1px dashed black; width: 100%">
                 <p style="margin: 0; font-size: 0.80rem; width: 5%; text-align: center;">1</p>
-                <h2 style="margin: 0; width: 65%; text-align: left; padding: 5px">Full stack portfolio website</h3>
+                <h2 style="margin: 0; width: 65%; text-align: left; padding: 5px">Full-stack portfolio website</h3>
                 <p style="margin: 0; font-size: 0.80rem; width: 30%; text-align: center;";">Started: Jul 28, 2025</p>
             </div>
 
