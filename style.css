@@ -1,8 +1,10 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 50px;
+  padding: 10px;
+  background-color: white;
 }
+
 button {
   padding: 10px 20px;
   font-size: 16px;
@@ -10,14 +12,43 @@ button {
   border-radius: 8px 8px 0 0;
   background-color: #e9e9e9;
   color: #616161;
+  border: none;
 }
 
 button:hover {
     background-color: #d6d6d6;
-
 }
 
 button.selected {
-  background-color: #b96f6f; /* change background */
-  color: white;              /* change text colour */
+  background-color: #bdbcbc; 
+  color: rgb(26, 26, 26);
 }
+
+#content {
+  max-width: 800px;       
+  margin: 5px auto;      
+  padding: 20px 30px;    
+  background-color: #99e6e6; 
+  border-radius: 8px;     
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+#content h1 {
+  font-size: 2rem;
+  color: #222;
+  border-bottom: 2px solid #ddd; 
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+#folder {
+  max-width: 800px;
+  margin: auto;      
+  padding: 3px 8px;     
+  background-color: #dadada; 
+  border-radius: 3px;     
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+

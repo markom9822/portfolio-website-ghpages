@@ -8,11 +8,23 @@ const content = document.getElementById("content");
 // Data for each section
 const sections = {
     about: `
+    <div style="display: flex; align-items: center; width: 100%;">
+        <div style="flex: 2; padding-right: 24px;">
         <h1>About me</h1>
-        <p>I am a Software Engineer from Dublin, Ireland based in London.
-        I have 3 years of experience in a med-tech startup building VR simulations for medical professionals. 
-        My background is in Biomedical Engineering with a masters from Imperial College London. 
-        I have a strong passion for learning new things and building.</p>
+        <p>
+            I am a Software Engineer from Dublin, Ireland based in London.
+            I have 3 years of experience in a med-tech startup building VR simulations for medical professionals.
+            My background is in Biomedical Engineering with a masters from Imperial College London.
+            I have a strong passion for learning new things and building.
+        </p>
+        </div>
+        <div style="flex: 1; display: flex; justify-content: center;">
+            <img src="./images/profile_photo_small.png"
+                alt="Profile photo"
+                style="width:180px; border-radius:4px;">
+        </div>
+    </div>
+
     `,
     why: `
         <h1>Why career change?</h1>
@@ -53,3 +65,6 @@ workBtn.addEventListener("click", () => {
 })
 
 
+// Set default to 'About' on page load
+content.innerHTML = sections.about;
+aboutBtn.classList.add('selected');
