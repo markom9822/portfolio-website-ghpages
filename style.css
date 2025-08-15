@@ -24,24 +24,24 @@ button.selected {
   color: rgb(26, 26, 26);
 }
 
-#content {
+#page {
   max-width: 800px;       
   margin: 5px auto;      
-  padding: 20px 30px;    
+  padding: 2px 3px;    
   background-color: #99e6e6; 
   border-radius: 6px;     
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
   font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
-#content h1 {
+#page h1 {
   font-size: 2rem;
   color: #222;
   margin-bottom: 10px;
   text-align: left;
 }
 
-#content p {
+#page p {
   font-size: 1.2rem;
   color: #222;
   margin-bottom: 10px;
@@ -56,5 +56,15 @@ button.selected {
   border-radius: 3px;     
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
   font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.binding-div {
+  width: 100%;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  background-image: url('/images/binding.png');
+  background-size: auto 30px;
+  background-repeat: repeat-y;
+  background-position: top;
 }
 
