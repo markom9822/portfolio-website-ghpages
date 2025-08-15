@@ -1,5 +1,5 @@
 export const about =  `
-    <div style="flex: 1; display: flex; flex-direction: column; gap: 2rem;">
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 1rem;">
 
         <div style="display: flex; flex-direction: row; gap: 2rem; align-items: center;">
 

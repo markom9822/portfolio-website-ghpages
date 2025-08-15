@@ -23,7 +23,7 @@ export const work = `
                 style="max-width: 100%; max-height: 180px; object-fit: cover; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,0.3);" />
             </div>
 
-            <p style="font-size: 1rem;">
+            <p style="font-size: 1rem; margin-bottom: 10px;">
             A full-stack portfolio website built from scratch using React, Vite, Motion and Tailwind CSS for the frontend and Firebase for the backend storage and authentication.
             <br/>
             <br/>
@@ -32,6 +32,23 @@ export const work = `
             <br/>
             Project is unit tested with tests automatically ran when making pull requests using GitHub actions.
             </p>
+
+            <p style="margin-bottom: 10px; font-size: 0.80rem; background-color: #c6f5f5; border-radius: 5px; padding: 5px;">
+               React, Vite, Typescript, Tailwind CSS, Firebase, Motion, Figma
+            </p>
+
+            <a href="https://github.com/markom9822/portfolio-website-vercel" target="_blank" style="display: flex; align-items: center;">
+                <svg stroke="blue" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke-linecap="round"
+                stroke-linejoin="round" height="18px" width="18px" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                    </path>
+                    <path d="M9 18c-4.51 2-5-2-7-2">
+                    </path>
+                </svg>
+                <p style="margin: 0; font-size: 1rem; text-align: center; color: blue;">Github Link</p>
+            </a>
+
         </div>
 
         <div style="margin-bottom: 20px">
@@ -42,7 +59,7 @@ export const work = `
             </div>
 
             <div style="width: 100%; display: flex; justify-content: start; margin-bottom: 16px; margin-top: 16px;">
-                <img src="./images/portfolio_website_cover.png" alt="Portfolio Screenshot" 
+                <img src="./images/Rugby_Radar_Poster.jpg" alt="Portfolio Screenshot" 
                 style="max-width: 100%; max-height: 180px; object-fit: cover; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,0.3);" />
             </div>
 
@@ -52,6 +69,23 @@ export const work = `
             <br/>
             Supplies information on fixtures, stats, player info, standings and more from 10+ rugby leagues around the world.
             </p>
+
+            <p style="margin-bottom: 10px; font-size: 0.80rem; background-color: #c6f5f5; border-radius: 5px; padding: 5px;">
+               React Native, Typescript, Expo, Figma
+            </p>
+
+            <a href="https://github.com/markom9822/rugbyRadar_app" target="_blank" style="display: flex; align-items: center;">
+                <svg stroke="blue" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke-linecap="round"
+                stroke-linejoin="round" height="18px" width="18px" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                    </path>
+                    <path d="M9 18c-4.51 2-5-2-7-2">
+                    </path>
+                </svg>
+                <p style="margin: 0; font-size: 1rem; text-align: center; color: blue;">Github Link</p>
+            </a>
+
         </div>
 
         <div style="margin-bottom: 20px">
@@ -62,7 +96,7 @@ export const work = `
             </div>
 
             <div style="width: 100%; display: flex; justify-content: start; margin-bottom: 16px; margin-top: 16px;">
-                <img src="./images/portfolio_website_cover.png" alt="Portfolio Screenshot" 
+                <img src="./images/MarkNote_app_cover.png" alt="Portfolio Screenshot" 
                 style="max-width: 100%; max-height: 180px; object-fit: cover; border-radius: 3px; box-shadow: 0 2px 10px rgba(0,0,0,0.3);" />
             </div>
 
@@ -72,6 +106,23 @@ export const work = `
             <br/>
             Features a code editor style text editor with a note preview which updates in real-time. Also includes an in depth array of settings allowing the user to customise themes, the editor and the markdown preview.
             </p>
+
+            <p style="margin-bottom: 10px; font-size: 0.80rem; background-color: #c6f5f5; border-radius: 5px; padding: 5px;">
+               React, Electron, Typescript, Tailwind CSS, Markdown, Jotai, Codemirror
+            </p>
+
+            <a href="https://github.com/markom9822/MarkNote-App" target="_blank" style="display: flex; align-items: center;">
+                <svg stroke="blue" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke-linecap="round"
+                stroke-linejoin="round" height="18px" width="18px" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                    </path>
+                    <path d="M9 18c-4.51 2-5-2-7-2">
+                    </path>
+                </svg>
+                <p style="margin: 0; font-size: 1rem; text-align: center; color: blue;">Github Link</p>
+            </a>
+
         </div>
 
     </div>
