@@ -61,11 +61,11 @@ export const about =  `
                             flex-direction:row;
                             justify-content:space-between;
                             font-size:0.80rem;">
-                        <h3 class="skill-name" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">Unity</h3>
-                        <h3 class="skill-years" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">3 yrs</h3>
+                        <h3 class="skill-name" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">Unity</h3>
+                        <h3 class="skill-years" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">3 yrs</h3>
                         </div>
                         <div class="skill-bar" style="position:relative;height:0.5rem;width:100%;">
-                        <div class="skill-bar-bg" style="background-color: black;height:100%;border-radius:4px;position:relative;z-index:10;width:100%;"></div>
+                        <div class="skill-bar-bg" style="background-color: rgb(54, 54, 54);height:100%;border-radius:4px;position:relative;z-index:10;width:100%;"></div>
                         <div class="skill-bar-fg" style="background-color: #79c9c9;height:100%;border-radius:4px;position:absolute;bottom:0;left:0;z-index:0;width:100%;"></div>
                     </div>
                 </div>
@@ -103,11 +103,11 @@ export const about =  `
                         flex-direction:row;
                         justify-content:space-between;
                         font-size:0.80rem;">
-                            <h3 class="skill-name" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">C#</h3>
-                            <h3 class="skill-years" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">3 yrs</h3>
+                            <h3 class="skill-name" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">C#</h3>
+                            <h3 class="skill-years" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">3 yrs</h3>
                             </div>
                             <div class="skill-bar" style="position:relative;height:0.5rem;width:100%;">
-                            <div class="skill-bar-bg" style="background-color: black;height:100%;border-radius:4px;position:relative;z-index:10;width:100%;"></div>
+                            <div class="skill-bar-bg" style="background-color: rgb(54, 54, 54);height:100%;border-radius:4px;position:relative;z-index:10;width:100%;"></div>
                             <div class="skill-bar-fg" style="background-color: #79c9c9;height:100%;border-radius:4px;position:absolute;bottom:0;left:0;z-index:0;width:100%;"></div>
                     </div>
                 </div>
@@ -139,12 +139,12 @@ export const about =  `
                         flex-direction:row;
                         justify-content:space-between;
                         font-size:0.8rem;">
-                    <h3 class="skill-name" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">Typescript</h3>
-                    <h3 class="skill-years" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">2 yrs</h3>
+                    <h3 class="skill-name" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">Typescript</h3>
+                    <h3 class="skill-years" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">2 yrs</h3>
                     </div>
                     <div class="skill-bar" style="position:relative;height:0.5rem;width:100%;">
                     <div class="skill-bar-bg" style="background-color: #79c9c9; height:100%; border-radius:4px;position:relative;z-index:0;width:100%;"></div>
-                    <div class="skill-bar-fg" style="background-color: black; height:100%; border-radius:4px;position:absolute;bottom:0;left:0;z-index:10;width:67%;"></div>
+                    <div class="skill-bar-fg" style="background-color: rgb(54, 54, 54); height:100%; border-radius:4px;position:absolute;bottom:0;left:0;z-index:10;width:67%;"></div>
                     </div>
                 </div>
             </div>
@@ -179,12 +179,12 @@ export const about =  `
                         flex-direction:row;
                         justify-content:space-between;
                         font-size:0.8rem;">
-                    <h3 class="skill-name" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">React/React Native</h3>
-                    <h3 class="skill-years" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">2 yrs</h3>
+                    <h3 class="skill-name" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">React/React Native</h3>
+                    <h3 class="skill-years" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">2 yrs</h3>
                     </div>
                     <div class="skill-bar" style="position:relative;height:0.5rem;width:100%;">
                     <div class="skill-bar-bg" style="background-color: #79c9c9; height:100%;border-radius:4px;position:relative;z-index:0;width:100%;"></div>
-                    <div class="skill-bar-fg" style="background-color: black; height:100%;border-radius:4px;position:absolute;bottom:0;left:0;z-index:10;width:67%;"></div>
+                    <div class="skill-bar-fg" style="background-color: rgb(54, 54, 54); height:100%;border-radius:4px;position:absolute;bottom:0;left:0;z-index:10;width:67%;"></div>
                     </div>
                 </div>
             </div>
@@ -212,12 +212,12 @@ export const about =  `
                         flex-direction:row;
                         justify-content:space-between;
                         font-size:0.80rem;">
-                    <h3 class="skill-name" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">Python</h3>
-                    <h3 class="skill-years" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">1 yr</h3>
+                    <h3 class="skill-name" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">Python</h3>
+                    <h3 class="skill-years" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">1 yr</h3>
                     </div>
                     <div class="skill-bar" style="position:relative;height:0.5rem;width:100%;">
                     <div class="skill-bar-bg" style="background-color: #79c9c9; height:100%;border-radius:4px;position:relative;z-index:0;width:100%;"></div>
-                    <div class="skill-bar-fg" style="background-color: black; height:100%;border-radius:4px;position:absolute;bottom:0;left:0;z-index:10;width:33%;"></div>
+                    <div class="skill-bar-fg" style="background-color: rgb(54, 54, 54); height:100%;border-radius:4px;position:absolute;bottom:0;left:0;z-index:10;width:33%;"></div>
                     </div>
                 </div>
             </div>
@@ -257,12 +257,12 @@ export const about =  `
                         flex-direction:row;
                         justify-content:space-between;
                         font-size:0.80rem;">
-                    <h3 class="skill-name" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">C++</h3>
-                    <h3 class="skill-years" style="font-weight:600;color:#27272a;margin-bottom:0.5rem;font-family:'Montserrat','Arial',sans-serif;">1 yr</h3>
+                    <h3 class="skill-name" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">C++</h3>
+                    <h3 class="skill-years" style="font-weight:600;color:rgb(54, 54, 54); margin-bottom:0.5rem;">1 yr</h3>
                     </div>
                     <div class="skill-bar" style="position:relative;height:0.5rem;width:100%;">
                     <div class="skill-bar-bg" style="background-color: #79c9c9; height:100%;border-radius:4px;position:relative;z-index:0;width:100%;"></div>
-                    <div class="skill-bar-fg" style="background-color: black; height:100%;border-radius:4px;position:absolute;bottom:0;left:0;z-index:10;width:33%;"></div>
+                    <div class="skill-bar-fg" style="background-color: rgb(54, 54, 54); height:100%;border-radius:4px;position:absolute;bottom:0;left:0;z-index:10;width:33%;"></div>
                     </div>
             </div>
 
