@@ -41,7 +41,7 @@ export const work = `
                Javascript, HTML, CSS, Aesprite
             </p>
 
-            <a href="https://github.com/markom9822/portfolio-website-vercel" target="_blank" style="display: flex; align-items: center;">
+            <a href="https://github.com/markom9822/rhythm-web-game" target="_blank" style="display: flex; align-items: center;">
                 <svg stroke="blue" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke-linecap="round"
                 stroke-linejoin="round" height="18px" width="18px" xmlns="http://www.w3.org/2000/svg">
                     <path
