@@ -5,7 +5,7 @@ export const work = `
     </h1>
     <p>
         Projects that I have built in my spare time outside of work, 
-        including a full-stack website, sports mobile app and a markdown note-taking desktop app.
+        including a rhythm web game, full-stack website, sports mobile app and a markdown note-taking desktop app.
     </p>
 
     <div style="margin-top: 20px">
@@ -34,11 +34,11 @@ export const work = `
             A web game built using Javascript, HTML and CSS where you have to hit the drums at right time to survive. See how high of a score you can get.
             <br/>
             <br/>
-            Features clean UI with custom made pixel art made using Aesprite. Also includes background music, sound effects and animations.
+            Features clean UI with custom made pixel art made using Aseprite. Also includes background music, sound effects and animations.
             </p>
 
             <p style="margin-bottom: 10px; font-size: 0.80rem; background-color: #c6f5f5; border-radius: 5px; padding: 8px; font-family: JetBrains-Mono, Arial, monospace;">
-               Javascript, HTML, CSS, Aesprite
+               Javascript, HTML, CSS, Aseprite
             </p>
 
             <a href="https://github.com/markom9822/rhythm-web-game" target="_blank" style="display: flex; align-items: center;">

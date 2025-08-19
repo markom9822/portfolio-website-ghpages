@@ -8,9 +8,9 @@ export const about =  `
                 <p>
                     I am a Software Engineer from Dublin, Ireland based in London.
                     I have 3 years of experience in a med-tech startup building VR simulations for medical professionals.
-                    <br><br>
                     My background is in Biomedical Engineering with a masters from Imperial College London.
-                    I have a strong passion for learning new things and building and I want to be a full-stack developer.
+                    <br><br>
+                    I have a strong passion for learning new things and building and I want to make a career change into full-stack development.
                 </p>
             </div>
 
