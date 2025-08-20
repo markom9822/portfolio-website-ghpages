@@ -87,7 +87,7 @@ button.selected {
   width: 100%;
   margin-bottom: 8px;
   margin-top: 8px;
-  background-image: url('/images/binding.png');
+  background-image: url('./images/binding.png');
   background-size: auto 30px;
   background-repeat: repeat-y;
   background-position: top;
