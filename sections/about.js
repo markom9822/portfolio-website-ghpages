@@ -45,7 +45,7 @@ export const about =  `
 
         <div
         style="
-            background-image: url('/images/dash_line.svg');
+            background-image: url('./images/dash_line.svg');
             background-size: cover;
             width: 100%;
             height: 2px;
