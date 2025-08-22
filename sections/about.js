@@ -6,11 +6,11 @@ export const about =  `
             <div style="flex: 2;">
                 <h1>About me</h1>
                 <p>
-                    I am a Software Engineer from Dublin, Ireland based in London.
+                    Hi my name is Mark. I'm from Dublin, Ireland now based in London.
                     I have 3 years of experience in a med-tech startup building VR simulations for medical professionals.
                     My background is in Biomedical Engineering with a masters from Imperial College London.
                     <br><br>
-                    I have a strong passion for learning new things and building and I want to make a career change into full-stack development.
+                    I have a strong passion for learning new things, building and being stretched.
                 </p>
             </div>
 
